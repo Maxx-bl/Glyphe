@@ -169,6 +169,24 @@ a {
     font-weight: 500;
 }
 
+.privacy-notice {
+    margin-top: 1.5rem;
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+}
+
+.privacy-link {
+    color: var(--text-primary);
+    text-decoration: underline;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.privacy-link:hover {
+    color: var(--text-secondary);
+    text-decoration: none;
+}
+
 .btn {
     display: inline-flex;
     align-items: center;
@@ -402,10 +420,21 @@ footer {
     .button-group {
         flex-direction: column;
         width: 100%;
+        align-items: stretch;
+    }
+    
+    .download-wrapper {
+        width: 100%;
+        align-items: stretch;
+    }
+    
+    .version-label {
+        text-align: center;
     }
     
     .btn {
         width: 100%;
+        display: flex;
     }
     
     .info-card {
