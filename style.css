@@ -316,6 +316,19 @@ section {
     font-size: 0.95rem;
 }
 
+/* iOS Notice */
+.ios-notice {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    text-align: center;
+    font-size: 0.95rem;
+    color: var(--text-secondary);
+    margin-bottom: 2rem;
+    margin-top: -4rem;
+}
+
 /* Support Badge */
 .support {
     text-align: center;
