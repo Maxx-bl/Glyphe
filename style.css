@@ -196,37 +196,31 @@ a {
     border-radius: var(--radius-pill);
     font-weight: 600;
     font-size: 1rem;
-    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
     cursor: pointer;
-    border: none;
     outline: none;
 }
 
 .btn-primary {
     background-color: var(--accent-bg);
     color: var(--accent-text);
+    border: none;
     box-shadow: var(--shadow-md);
+    transition: opacity 0.18s ease;
 }
 
 .btn-primary:hover {
-    transform: translateY(-3px) scale(1.02);
-    box-shadow: var(--shadow-lg);
-    background-color: var(--hover-bg);
-}
-
-.btn-primary:active {
-    transform: translateY(0) scale(0.98);
+    opacity: 0.75;
 }
 
 .btn-secondary {
     background-color: transparent;
     color: var(--text-primary);
     border: 2px solid var(--border-color);
+    transition: border-color 0.18s ease;
 }
 
 .btn-secondary:hover {
-    border-color: var(--text-primary);
-    transform: translateY(-3px);
+    border-color: #000000;
 }
 
 .icon {
